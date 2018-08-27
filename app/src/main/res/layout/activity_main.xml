@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <devmike.com.coffeetextview.CoffeeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ct_caption_shadow_color="@color/colorAccent"
+        app:ct_title_shadow_color="@color/colorPrimaryDark"
+        app:ct_title_shadowDx="3"
+        app:ct_caption_typeface="@string/coffeefont_1"
+        app:ct_title_typeface="@string/coffeefont_1"
+        app:ct_caption_shadowDy="3"
+        android:id="@+id/text_1"
+        app:ct_title_shadowDy="3"
+        app:ct_title_shadowRadius="1"
+        app:ct_caption_shadowRadius="3"
+        app:ct_caption_shadowDx="3"
+        app:ct_title_size="12dp"
+        app:ct_caption_color="@color/colorPrimaryDark"
+        app:ct_caption_size="5dp"
+        app:ct_caption_text="@string/app_name"
+        app:ct_title_text="@string/app_name"/>
+
+    <Button
+        android:text="Zoom Out"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/zoomout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <devmike.com.coffeetextview.CoffeeTextView
+        android:layout_width="wrap_content"
+        android:id="@+id/text_2"
+        android:layout_height="wrap_content"
+        app:ct_caption_shadow_color="@color/colorAccent"
+        app:ct_title_shadow_color="@color/colorPrimaryDark"
+        app:ct_title_shadowDx="3"
+        app:ct_title_typeface="@string/generation_sept"
+        app:ct_caption_shadowDy="3"
+        app:ct_title_shadowDy="3"
+        app:ct_title_shadowRadius="1"
+        app:ct_caption_shadowRadius="3"
+        app:ct_caption_shadowDx="3"
+        app:ct_title_size="12dp"
+        app:ct_caption_color="@color/colorPrimaryDark"
+        app:ct_caption_size="5dp"
+        app:ct_caption_text="@string/app_name"
+        app:ct_title_text="@string/app_name"/>
+
+    <Button
+        android:text="Zoom In"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/zoomin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <devmike.com.coffeetextview.CoffeeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_3"
+        app:ct_caption_shadow_color="@color/colorAccent"
+        app:ct_title_shadow_color="@color/colorPrimaryDark"
+        app:ct_title_shadowDx="3"
+        app:ct_title_typeface="@string/coffeefont_2"
+        app:ct_caption_shadowDy="3"
+        app:ct_title_shadowDy="3"
+        app:ct_title_shadowRadius="1"
+        app:ct_caption_shadowRadius="3"
+        app:ct_caption_shadowDx="3"
+        app:ct_title_size="12dp"
+        app:ct_caption_color="@color/colorPrimaryDark"
+        app:ct_caption_size="5dp"
+        app:ct_caption_text="@string/app_name"
+        app:ct_title_text="@string/app_name"/>
+
+
+    <Button
+        android:text="Blink"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/blink_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <devmike.com.coffeetextview.CoffeeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_4"
+        app:ct_caption_shadow_color="@color/colorAccent"
+        app:ct_title_shadow_color="@color/colorPrimaryDark"
+        app:ct_title_shadowDx="3"
+        app:ct_caption_typeface="@string/coffeefont_3"
+        app:ct_title_typeface="@string/coffeefont_3"
+        app:ct_caption_shadowDy="3"
+        app:ct_title_shadowDy="3"
+        app:ct_title_shadowRadius="1"
+        app:ct_caption_shadowRadius="3"
+        app:ct_caption_shadowDx="3"
+        app:ct_title_size="12dp"
+        app:ct_caption_color="@color/colorPrimaryDark"
+        app:ct_caption_size="5dp"
+        app:ct_caption_text="@string/app_name"
+        app:ct_title_text="@string/app_name"/>
+
+    <Button
+        android:text="Bounce in"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/bounce_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <devmike.com.coffeetextview.CoffeeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ct_caption_shadow_color="@color/colorAccent"
+        app:ct_title_shadow_color="@color/colorPrimaryDark"
+        app:ct_title_shadowDx="3"
+        app:ct_title_typeface="@string/coffeefont_4"
+        app:ct_caption_shadowDy="3"
+        app:ct_title_shadowDy="3"
+        app:ct_title_shadowRadius="1"
+        app:ct_caption_shadowRadius="3"
+        android:id="@+id/text_5"
+        app:ct_caption_shadowDx="3"
+        app:ct_title_size="12dp"
+        app:ct_caption_color="@color/colorPrimaryDark"
+        app:ct_caption_size="5dp"
+        app:ct_caption_text="@string/app_name"
+        app:ct_title_text="@string/app_name"/>
+
+    <Button
+        android:text="Fade In"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/fadein_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>

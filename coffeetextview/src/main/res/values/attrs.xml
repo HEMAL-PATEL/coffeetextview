@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CoffeeTextView">
+        <attr name="ct_title_typeface" format="reference"/>
+        <attr name="ct_title_text" format="reference"/>
+        <attr name="ct_title_size" format="dimension"/>
+        <attr name="ct_title_color" format="color"/>
+        <attr name="ct_caption_typeface" format="reference"/>
+        <attr name="ct_caption_text" format="reference"/>
+        <attr name="ct_caption_size" format="dimension"/>
+        <attr name="ct_caption_color" format="color"/>
+
+
+        <attr name="ct_title_shadowDy" format="float"/>
+        <attr name="ct_title_shadowDx" format="float"/>
+        <attr name="ct_title_shadowRadius" format="float"/>
+        <attr name="ct_title_bottom_space" format="dimension"/>
+        <attr name="ct_title_shadow_color" format="color"/>
+
+        <attr name="ct_caption_shadowDy" format="float"/>
+        <attr name="ct_caption_shadowDx" format="float"/>
+        <attr name="ct_caption_shadowRadius" format="float"/>
+        <attr name="ct_caption_shadow_color" format="color"/>
+
+        <attr name="ct_title_animation" format="reference"/>
+        <attr name="ct_caption_animation" format="reference"/>
+
+        <attr name="ct_caption_visibility" format="enum">
+            <enum name="visible" value="0x00000000"/>
+            <enum name="gone" value="0x00000008"/>
+        </attr>
+
+        <!--
+        <attr name="ct_icon_align" format="enum">
+            The value should always match RelativeLayout alignment
+            <enum value="3" name="top"/>
+            <enum name="end" value="17"/>
+            <enum value="17" name="bottom"/>
+            <enum value="17" name="start"/>
+        </attr>
+        <attr name="ct_icon" format="reference"/>!-->
+
+    </declare-styleable>
+</resources>
