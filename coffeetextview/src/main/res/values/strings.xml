@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CoffeeTextView</string>
     <string name="coffeefont_1">coffeefont_1.ttf</string>
-    <string name="coffeefont_2">coffeefont_2.otf</string>
-    <string name="coffeefont_3">coffeefont_3.ttf</string>
+    <string name="coffeefont_2">coffeefont_2.ttf</string>
+    <string name="coffeefont_3">coffeefont_3.otf</string>
     <string name="coffeefont_4">coffeefont_4.otf</string>
 </resources>
