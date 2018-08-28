@@ -1,6 +1,7 @@
 # coffeetextview
 
 [![](https://jitpack.io/v/devmike01/coffeetextview.svg)](https://jitpack.io/#devmike01/coffeetextview)
+
 A simple TextView library that lets developer easily set custom attributes through xml, programmatically or both
 
 <img src="https://github.com/devmike01/coffeetextview/blob/master/coffeetextview/sample.gif" width="240" height="395" />
