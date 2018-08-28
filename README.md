@@ -20,7 +20,7 @@ A simple TextView library that lets developer easily set custom attributes throu
 	}
 	
 ### Usage
-Download and import font from [1000freefonts](http://1001freefonts.com/) to your project. Create a new string literal your string resources and set the font's name as the value. Then use the string resource id in the `CoffeeTextView`.
+Create an `Asset folder`. Inside the Asset folder, create another folder called `fonts`. Download and import font to the fonts folder you just created (Download free fonts here [1000freefonts](http://1001freefonts.com/) ). Create a new string literal and set the font's name including the font extension(e.g .otf) as the value. Then use the string resource id in the `CoffeeTextView`.
 
 ```xml
     <devmike.com.coffeetextview.CoffeeTextView
