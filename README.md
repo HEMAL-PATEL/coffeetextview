@@ -69,7 +69,7 @@ You can create an instance of `CoffeeTextView` in your kotlin or java file in or
     }
 ```
 
- Copyright [yyyy] [name of copyright owner]
+ Copyright [2018] [Oladipupo Gbenga]
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
