@@ -11,6 +11,7 @@ import android.graphics.ColorSpace;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.os.Handler;
+import android.os.Message;
 import android.support.annotation.AnimRes;
 import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
@@ -41,6 +42,7 @@ import org.xmlpull.v1.XmlPullParser;
 import java.lang.reflect.InvocationTargetException;
 
 import devmike.com.coffeetextview.R;
+import devmike.com.coffeetextview.animation.ResizeAnimation;
 
 public class CoffeeTextView extends RelativeLayout {
 
@@ -66,7 +68,7 @@ public class CoffeeTextView extends RelativeLayout {
     private void init(AttributeSet set){
 
         inflate(getContext(), R.layout.coffee_tv_layout, this);
-        setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
+        setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,
                 LayoutParams.WRAP_CONTENT));
 
         mTitleText = findViewById(R.id.title);
@@ -160,7 +162,6 @@ public class CoffeeTextView extends RelativeLayout {
     }
 
     private Animation loadAnimation(int animResId){
-
         return AnimationUtils.loadAnimation(getContext(), animResId);
     }
 
@@ -169,6 +170,17 @@ public class CoffeeTextView extends RelativeLayout {
     public void onDraw(Canvas canvas){
         canvas.getClipBounds(clip);
         Log.d(CoffeeTextView.class.getSimpleName(), "onDraw clip height: " + clip.height());
+        super.onDraw(canvas);
+    }
+
+    @Override
+    public void onMeasure(int measureSpec, int heightMeasureSpec){
+
+        int widthSize = MeasureSpec.getSize(measureSpec);
+        int heightSize = MeasureSpec.getSize(heightMeasureSpec);
+
+        Log.d(CoffeeTextView.class.getSimpleName(), widthSize+" onDraw clip height__: " + heightSize);
+        super.onMeasure(widthSize, heightSize);
     }
 
 
@@ -303,4 +315,5 @@ public class CoffeeTextView extends RelativeLayout {
     public TextView getTitleText() {
         return mTitleText;
     }
+
 }
