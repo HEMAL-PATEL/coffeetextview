@@ -1,4 +1,6 @@
 # coffeetextview
+
+[![](https://jitpack.io/v/devmike01/coffeetextview.svg)](https://jitpack.io/#devmike01/coffeetextview)
 A simple TextView library that lets developer easily set custom attributes through xml, programmatically or both
 
 <img src="https://github.com/devmike01/coffeetextview/blob/master/coffeetextview/sample.gif" width="240" height="395" />
@@ -12,11 +14,8 @@ A simple TextView library that lets developer easily set custom attributes throu
 	}
   
   ##### Step 2. Add the dependency
-  	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+ 	dependencies {
+	        implementation 'com.github.devmike01:coffeetextview:v1.0.0'
 	}
 	
 ### Usage
