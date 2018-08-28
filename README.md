@@ -1,7 +1,7 @@
 # coffeetextview
 A simple TextView library that lets developer easily set custom attributes through xml, programmatically or both
 
-[![Demo CountPages alpha](https://github.com/devmike01/coffeetextview/blob/master/coffeetextview/sample.gif)]
+<img src="https://github.com/devmike01/coffeetextview/blob/master/coffeetextview/sample.gif" width="240" height="395" />
 
 ##### Step 1. Add the JitPack repository to your build file 
 	allprojects {
