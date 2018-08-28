@@ -20,6 +20,7 @@ A simple TextView library that lets developer easily set custom attributes throu
 	}
 	
 ### Usage
+Download and import font from [1000freefonts](http://1001freefonts.com/) to your project. Create a new string literal your string resources and set the font's name as the value. Then use the string resource id in the `CoffeeTextView`.
 
 ```xml
     <devmike.com.coffeetextview.CoffeeTextView
@@ -71,6 +72,7 @@ You can create an instance of `CoffeeTextView` in your kotlin or java file in or
     }
 ```
 
+### Licence
  Copyright [2018] [Oladipupo Gbenga]
 
    Licensed under the Apache License, Version 2.0 (the "License");
