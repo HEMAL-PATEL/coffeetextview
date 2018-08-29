@@ -20,7 +20,7 @@ A simple TextView library that lets developer easily set custom attributes throu
 	}
 	
 ### Usage
-Create an `Asset folder`. Inside the Asset folder, create another folder called `fonts`. Download and import font to the fonts folder you just created (Download free fonts here [1000freefonts](http://1001freefonts.com/) ). Create a new string literal and set the font's name including the font extension(e.g .otf) as the value. Then use the string resource id in the `CoffeeTextView`.
+Create an `Asset folder`. In the Asset folder, create another folder called `fonts`. Download and import font to the fonts folder you just created (Download free fonts here [1000freefonts](http://1001freefonts.com/) ). Create a new string literal and set the font's name including its extension(e.g .otf) as the value. Then use the string resource id in the `CoffeeTextView`. However, you can use the animations and fonts are available in the library.
 
 ```xml
     <devmike.com.coffeetextview.CoffeeTextView
@@ -31,6 +31,7 @@ Create an `Asset folder`. Inside the Asset folder, create another folder called 
         app:ct_title_shadowDx="3"
         app:ct_title_typeface="@string/coffeefont_4"
         app:ct_caption_shadowDy="3"
+        app:ct_title_animation="@anim/bounce_in"
         app:ct_title_shadowDy="3"
         app:ct_title_shadowRadius="1"
         app:ct_caption_shadowRadius="3"
