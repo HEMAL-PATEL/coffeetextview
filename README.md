@@ -1,6 +1,6 @@
 # coffeetextview
 
-[![](https://jitpack.io/v/devmike01/coffeetextview.svg)](https://jitpack.io/#devmike01/coffeetextview)
+[![](https://jitpack.io/v/devmike01/coffeetextview.svg)](https://jitpack.io/#devmike01/coffeetextview) [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-CoffeeTextView-green.svg?style=flat )]( https://android-arsenal.com/details/1/7086 )
 
 A simple TextView library that lets developer easily set custom attributes through xml, programmatically or both
 
