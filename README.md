@@ -20,7 +20,7 @@ A simple TextView library that lets developer easily set custom attributes throu
 	}
 	
 ### Usage
-Create an `Asset folder`. In the Asset folder, create another folder called `fonts`. Download and import font to the fonts folder you just created (Download free fonts here [1000freefonts](http://1001freefonts.com/) ). Create a new string literal and set the font's name including its extension(e.g .otf) as the value. Then use the string resource id in the `CoffeeTextView`. However, you can use the animations and fonts are available in the library.
+Create an `Asset` folder. In the Asset folder, create another folder called `fonts`. Download and import font to the fonts folder you just created (Download free fonts here [1000freefonts](http://1001freefonts.com/) ). Create a new string literal and set the font's name including its extension(e.g .otf) as the value. Then use the string resource id in the `CoffeeTextView`. However, you can use the animations and fonts that are already available in the library.
 
 ```xml
     <devmike.com.coffeetextview.CoffeeTextView
@@ -44,7 +44,7 @@ Create an `Asset folder`. In the Asset folder, create another folder called `fon
         app:ct_title_text="@string/app_name"/>
 ```
 
-You can create an instance of `CoffeeTextView` in your kotlin or java file in order to set the textview properties
+You can create an instance of `CoffeeTextView` in your kotlin or java file in order to set the textview properties programmatically.
 
 ### Kotlin sample
 
