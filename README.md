@@ -10,7 +10,9 @@ A simple TextView library that lets developer easily set custom attributes throu
 	allprojects {
 		repositories {
 			...
-			maven { url 'https://jitpack.io' }
+			maven { 
+			url 'https://jitpack.io' 
+			}
 		}
 	}
   
@@ -20,7 +22,7 @@ A simple TextView library that lets developer easily set custom attributes throu
 	}
 	
 ### Usage
-Create an `Asset` folder. In the Asset folder, create another folder called `fonts`. Download and import font to the fonts folder you just created (Download free fonts here [1000freefonts](http://1001freefonts.com/) ). Create a new string literal and set the font's name including its extension(e.g .otf) as the value. Then use the string resource id in the `CoffeeTextView`. However, you can use the animations and fonts that are already available in the library.
+Create an `Asset` folder. In the Asset folder, create another folder called `fonts`. Download and import font to the fonts folder you just created (Download free fonts here [1000freefonts](http://1001freefonts.com/) ). Create a new string resources and set the font's name including its extension(e.g .otf) as the value. Then use the string resource id in the `CoffeeTextView`. Also, you can use the animations and fonts that are already available in the library.
 
 ```xml
     <devmike.com.coffeetextview.CoffeeTextView
